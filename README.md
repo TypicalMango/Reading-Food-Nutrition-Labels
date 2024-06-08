@@ -14,7 +14,7 @@ Tests the following models:
 \* *Didnt work in kaggle environment*
 
 ## Known Limitations:
-- different formatting of labels
-- doesnt spell check extracted output
-- if label is on highly curved surface, OCR fails (image 1 of dataset)
-- if label isnt bounded by a box, OCR fails (image 2 of dataset)
+- lack of standardization in label format
+- absence of spell checker for extracted output
+- OCR fails if label is on highly curved surface
+- OCR fails if label isnt bounded by a box
